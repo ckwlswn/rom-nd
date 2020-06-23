@@ -1,0 +1,173 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+ul { list-style-type: none;}
+a { text-decoration: none;}
+body {font-family: 'Nanum Gothic', sans-serif;}
+#main_header {
+    width: 1440px;
+    /* background: #ccc; */
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+#main_header h1 {
+    position: absolute;
+    top: -2px; left: 700px;
+}
+#main_header h1 img {
+    width: 100px; height: 80px;
+}
+#main_header > ul {
+    margin-left: 50px;
+}
+#main_header > ul li {
+     display: inline-block;
+     font-size: 12px;
+     margin-left: 10px;
+     margin-top: 35px;
+     /* outline: 1px solid red;  */
+}
+#main_header > ul li a {color: #888;}
+#main_header > ul li:hover { text-decoration: underline;}
+#main_header nav {
+    position: absolute;
+    right: 50px; top: 25px;
+    text-align: center;
+}
+#main_header nav ul li  {
+    display: inline-block;
+    /* outline: 1px solid red; */
+    color: #f8cbd0;
+    font-size: 30px;
+    margin-left: 15px;
+}
+#main_header nav ul li i { color: #f8cbd0;}
+
+#main_gnb {
+    width: 1920px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    z-index: 9999;
+}
+
+/* 1단계메뉴  */
+#main_gnb > .depth1 > li {
+    /* outline: 1px solid red; */
+    overflow: hidden;     /*자식플로트하면부모히든*/
+    
+    margin-top: 15px;
+}
+#main_gnb > .depth1 > li {
+    width: 250px;
+    text-align: center;  /*width 잡으면*/
+    float: left;
+    /* outline: 1px solid green; */
+    font-weight: bold;
+    color: #333;
+}
+#main_gnb > .depth1 a { display: block; }
+
+
+/* 2단계 메뉴 안보임(기본) */
+.depth2 {
+    /* display: none;   애니메이션을 넣을려면 오퍼시티로. */
+    opacity: 0;
+    max-height: 0px;
+    /* CSS방식 fade in / out */
+    transition-duration: 0.8s;
+    font-weight: normal;
+}
+
+/* 1단계 호버시 2단계메뉴 표시 */
+.depth1 > li:hover > .depth2 {
+    /* display: block; */
+    background: #fff;
+    /* ★ max-height  = 높이 자동조정 ★ */
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    border-top: 3px solid #f8cbd0;
+  
+}
+.depth1 > li:hover > .depth2 li:last-of-type { padding-bottom: 15px;}
+.depth1 > li:hover > .depth2 li {
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 14px;
+}
+.depth2 li a { color: #777;}
+.depth2 li:hover > a {
+    color: #f8cbd0;
+    text-decoration: underline;
+}
+#main_gnb img { margin-top: 10px; margin-left: -10px;}
+
+
+/* 비주얼 */
+#visual {
+    width: 100%;
+    margin-top: 45px;    
+}
+#visual > .slider > div > img {
+    width: 100%;
+}
+
+/* 비디오 */
+#video-info {
+    width: 100%;
+    height: 650px;
+    background: #f8f7f6;
+    margin-top: 90px;
+}
+.info-container {
+    width: 1440px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    overflow: hidden;
+}
+.info-container .left {
+    float: left;
+    margin-top: 50px;
+}
+
+.info-container .right{
+    float: right;
+    width: 720px;
+    margin-top: 50px;
+}
+.right .main-txt {
+    height: 140px;
+    background: #fff;
+    box-shadow: 0px 2px 5px #d4d3d3;
+}
+.main-txt h3 { font-size: 20px; color: #c1d3f3; padding: 40px; padding-bottom: 0;}
+.main-txt p { font-size: 15px; color: #777; font-weight: bold; padding-left: 40px;padding-top: 10px;}
+.sub-txt {
+    position: relative;
+    height: 30px;
+    text-align: center;
+    background: #c1d3f3;
+    color: #fff;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0px 3px 4px #8499bd;
+    z-index: 9999;
+}
+.v-img {
+    width: 720px;
+    height: 360px;
+    background: #ccc;
+    overflow: hidden;
+    
+}
+.v-img img {
+    width: 360px; height: 180px;
+    float: left;
+    transition: 0.5s;
+}
+.v-img img:hover {
+    transform: scale(1.2);
+}
