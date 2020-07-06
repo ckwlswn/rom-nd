@@ -7,5 +7,7 @@ $(function(){
     })
 
     // 비디오
-    // $('#video-info .info-container').bxSlider();
+    
+
+   
 });

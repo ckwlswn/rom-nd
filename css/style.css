@@ -115,7 +115,9 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     width: 100%;
     position: relative;
     margin-top: 45px;
-    /* overflow: hidden; */
+    overflow: hidden;
+    height: 500px;
+    /* outline: 1px solid red; */
 }
 #visual > div { 
     width: 1440px;
@@ -129,13 +131,12 @@ body {font-family: 'Nanum Gothic', sans-serif;}
 #video-info {
     width: 100%;
     height: 650px;
-    background: #f8f7f6;
-    margin-top: 50px;
+    background: #f0f0f0;
+    /* margin-top: 50px; */
 }
 .info-container {
     width: 1440px;
     margin: 0 auto;
-    /* outline: 1px solid red; */
     overflow: hidden;
 }
 .info-container .left {
@@ -143,7 +144,7 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     margin-top: 50px;
 }
 
-.info-container .right{
+.info-container  .right{
     float: right;
     width: 720px;
     margin-top: 50px;
@@ -172,6 +173,11 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     background: #ccc;
     overflow: hidden;
 }
+.v-img > a {
+    display: block;
+    overflow: hidden;
+    float: left;
+}
 .v-img  img {
     width: 360px; height: 180px;
     float: left;
@@ -180,3 +186,153 @@ body {font-family: 'Nanum Gothic', sans-serif;}
 .v-img img:hover {
     transform: scale(1.2);
 }
+
+/* 이벤트 */
+#event {
+    width: 1440px;
+    margin: 0 auto;
+}
+#event h4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#event a {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+#event img {
+    width: 460px;
+    height: 200px;
+}
+#event a:last-child { margin-right: 0;}
+#event a:hover > img {
+    opacity: 0.7;
+}
+
+/* 상품리스트 */
+#list {
+    width: 1440px;
+    margin: 0 auto;
+}
+#list h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#list ul {
+    float: left;
+}
+#list ul li {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+#list ul li:last-of-type { margin-right: 0;}
+.s-list dl {
+    text-align: center;
+    margin-top: 30px;
+}
+.s-list dl dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.s-list dl dd {
+    font-weight: 18px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.s-list dl dd del { 
+    font-size: 12px;
+    color: #f8cbd0; 
+    /* outline: 1px solid red; */
+    
+}
+.s-list dd img { margin-top: 5px;}
+/* look */
+#look {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+#look h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.look-bg {
+    width: 100%;
+    height: 630px;
+    background: #f8eaeb;
+}
+.look-container {
+    width: 1440px;
+    margin: 0 auto;
+    /*background: #cccccc;*/
+    
+}
+
+#look ul { margin-left: 100px; overflow: hidden;}
+#look ul li {
+    float: left;
+    margin-top: 75px;
+    overflow: hidden;
+}
+#look ul li:hover > a {
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+#look ul li img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+#look ul li:hover img {
+    transform: scale(1.1);
+}
+#review {
+    clear: both;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.r-left {
+    width: 1000px; height: 300px;
+}
+.r-left h4 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.r-left img {width: 123px; height: 123px;}
+.r-left .r-txt {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    bottom: 30px;
+}
+.r-left h5 {
+    font-size: 14px;
+    color: #f1b5bc;
+    font-weight: normal;
+    margin-bottom: 5/x;
+}
+.r-left p {
+    font-size: 12px;
+    color: #999;
+    position: relative;
+    left: 280px; top: -10px;
+    
+ }
+.r-left .title {font-size: 16px; color: #333; font-weight: bold; margin-bottom: 10px;}
+.r-left .post {font-size: 13px; color: #999;}
+
