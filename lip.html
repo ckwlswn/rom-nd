@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rom&nd</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- bxslider 플러그인 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- 폰트어썸 cdn -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- pc css -->
+  <link rel="stylesheet" href="./css/lip.css">
+</head>
+<body>
+    <section id="main_header">
+        <h1><a href="index.html"><img src="images/logo.png" alt="#"></a></h1>
+        <ul>
+            <li><a href="index.html">홈</a></li>
+            <li><a href="#">즐겨찾기</a></li>
+            <li><a href="#">바로가기</a></li>
+        </ul>
+        <nav>
+            <ul>
+                <li><a href="#"><i title="검색" class="fa fa-search" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i title="로그인" class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i title="장바구니" class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i title="멤버쉽" class="fa fa-addresfacecard-o" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+    </section>    
+        <nav id="main_gnb">
+            <ul class="depth1">
+                <li>SHOPPING
+                <ul class="depth2">
+                    <li><a href="face.html">FACE</a></li>
+                    <li><a href="eye.html">EYE</a></li>
+                    <li><a href="cheek.html">CHEEK</a></li>
+                    <li><a href="lip.html">LIP</a></li>
+                    <li><a href="tool.html">TOOL</a></li>
+                    <li><a href="set.html">SET</a></li>
+                </ul>
+                </li>
+                <li>EVENT
+                <ul class="depth2">
+                    <li><a href="#">진행중 이벤트</a></li>
+                    <li><a href="#">종료된 이벤트&당첨자 발표</a></li>
+                </ul>
+                </li>
+                <li>REVIEW
+                <ul class="depth2">
+                    <li><a href="#">실시간 후기</a></li>
+                    <li><a href="#">베스트 후기</a></li>
+                </ul>
+                </li>
+                <li>COMMUNITY
+                <ul class="depth2">
+                    <li><a href="#">상품문의</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+                </li>
+                <li>BRAND
+                <ul class="depth2">
+                    <li><a href="#">롬앤소식</a></li>
+                    <li><a href="#">STORE</a></li>
+                </ul>
+                </li>   
+            </ul>
+            <a href="#"><img src="images/nav.jpg" alt=""></a>
+        </nav>
+   
+    <section id="visual">
+        <img src="images/lip-visual.jpg" alt="">
+    </section>
+
+  
+    
+    <section id="list">
+        <h4>LIP</h4>
+        <ul class="category">
+            <li><a href="#face-list">ALL <strong>∨</strong></a></li>
+            <li><a href="#zero">ZERO LINE <strong>∨</strong></a></li>
+            <li><a href="#juicy">JUICY LINE <strong>∨</strong></a></li>
+            <li><a href="#see-through">SEE-THROUGH LINE <strong>∨</strong></a></li>
+            <li><a href="#etc">ETC <strong>∨</strong></a></li>
+        </ul>
+
+        <div class="array">
+            <ul class="left">
+                <li class="cover">
+                    총
+                    <strong>62</strong>
+                    개의 상품이 검색되었습니다.
+                </li>
+            </ul>
+            <ul class="right"> 
+                <li><a href="#">신상품</a></li>
+                <li><a href="#">상품명</a></li>
+                <li><a href="#">낮은가격</a></li>
+                <li><a href="#">높은가격</a></li>
+                <li><a href="#">제조사</a></li>
+                <li><a href="#">사용후기</a></li>
+                <li><a href="#">조회수</a></li>
+                <li><button><i class="fa fa-check"></i> 비교
+                </button></li>
+            </ul>
+        </div>
+        <div id="face-list">
+            <ul id="zero">
+                <li><a href="#"><img src="images/l1.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 NEW 제로 벨벳 틴트 #베이크드벨벳</dt>
+                        <dt>#립당충전</dt>
+                        <dd><del>12,000원</del></dd>
+                        <dd>9,600원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l2.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 제로 매트 립스틱 20color #리뉴얼</dt>
+                        <dt>#여름립신상</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,400원</dd>
+                        <dd><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l29.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 제로 레이어 립스틱 6color</dt>
+                        <dt>#촘촘밀착</dt>
+                        <dd><del>15,000원</del></dd>
+                        <dd>8,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li class="zero-img"><a href="#"><img src="images/l50.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 제로 벨벳 틴트 11color</dt>
+                        <dt class="dt-2">#0g니트립 #블러징틴트</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,400원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <ul id="zero">
+                    <li class="zero-img2"><a href="#"><img src="images/l52.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 매트 립스틱 13color</dt>
+                            <dt class="dt-2">종잇장처럼 가벼운 0g의 컬러</dt>
+                            <dt class="dt-2">바른 듯, 안바른 듯 가장 가벼운 매트 립스틱</dt>
+                            <dd><del>15,000원</del></dd>
+                            <dd>8,900원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l49.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 01멜팅</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l48.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 02조이풀</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l47.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 03펄시레드</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <ul id="zero">
+                        <li><a href="#"><img src="images/l46.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 벨벳 틴트 04번트하트</dt>
+                                <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l45.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 벨벳 틴트 05위티</dt>
+                                <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l44.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 벨벳 틴트 06딥소울</dt>
+                                <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l37.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 벨벳 틴트 07피즈</dt>
+                                <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                 <ul id="zero">
+                    <li><a href="#"><img src="images/l38.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 08아이시</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l39.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 09폴라</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l40.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 10피버</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l41.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 제로 벨벳 틴트 11플레어</dt>
+                            <dt class="dt-2">가볍게 입술을 감싸는 0g의 니트립, 신컬러 출시!</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <ul id="zero">
+                        <li><a href="#"><img src="images/l16.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 레이어 립스틱 M01브릭포르테</dt>
+                                <dd><del>15,000원</del></dd>
+                                <dd>8,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l17.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 레이어 립스틱 M02코랄플랫</dt>
+                                <dd><del>15,000원</del></dd>
+                                <dd>8,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l18.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 레이어 립스틱 M03크레센도</dt>
+                                <dd><del>15,000원</del></dd>
+                                <dd>8,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l19.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 레이어 립스틱 M04피그캐논</dt>
+                                <dd><del>15,000원</del></dd>
+                                <dd>8,900원</dd>
+                            </dl>
+                        </li>
+                      <ul id="zero">
+                        <li><a href="#"><img src="images/l20.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 레이어 립스틱 M05컬러하모니</dt>
+                                <dd><del>15,000원</del></dd>
+                                <dd>8,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l21.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 제로 레이어 립스틱 M06레드탬버린</dt>
+                                <dd><del>15,000원</del></dd>
+                                <dd>8,900원</dd>
+                            </dl>
+                        </li>
+                      </ul>
+                    </ul>
+                </ul>
+              </ul>
+             </ul>
+            </ul>
+            
+            <ul id="juicy">
+                <li class="juicy-img"><a href="#"><img src="images/l3.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 NEW 쥬시 래스팅 틴트 #스파클링쥬시</dt>
+                        <dt>#립당충전</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,400원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li class="juicy-img2"><a href="#"><img src="images/l28.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 쥬시 래스팅 틴트 #열매시리즈</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,400원</dd>
+                        <dd><img src="images/new.gif" alt=""></dd>
+                        
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l57.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 쥬시 래스팅 틴트 13color</dt>
+                        <dt class="dt-2">시간이 지날수록 차오르는 #탕후루광택</dt>
+                        <dt class="dt-2">과즙 컬러감을 머금은 시럽코팅</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,400원</dd>
+                        <dd><img src="images/new.gif" alt=""></dd>
+                        
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l54.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 쥬시 래스팅 틴트 07쥬쥬브</dt>
+                        <dt class="dt-2">우아한 대추가 입술에 물들어버렸다</dt>
+                        <dt class="dt-2">품절대란의 주인공 쥬쥬브 탕후루</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,400원</dd>
+                        <dd><img src="images/new.gif" alt=""></dd>
+                        
+                    </dl>
+                </li>
+                <ul id="juicy">
+                    <li><a href="#"><img src="images/l22.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 쥬시 래스팅 틴트 10누디피넛</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l23.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 쥬시 래스팅 틴트 11핑크펌킨</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l24.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 쥬시 래스팅 틴트 12체리밤</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l25.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 쥬시 래스팅 틴트 13잇도토리</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>8,400원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <ul id="juicy">
+                        <li><a href="#"><img src="images/l42.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 쥬시 래스팅 틴트 09리치코랄</dt>
+                                <dt class="dt-2">아련한 리치가 쥬시광택을 만나 과즙을 톡!</dt>
+                                <dt class="dt-2">가장 예쁜 리치를 담은 리치코랄 탕후루</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l43.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 쥬시 래스팅 틴트 08애플브라운</dt>
+                                <dt class="dt-2">카라멜라이즈드한 듯 입술에 달큰한 바이브를</dt>
+                                <dt class="dt-2">애플만의 달달한 MLBB빛 탕후루</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l55.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 쥬시 래스팅 틴트 06피그피그</dt>
+                                <dt class="dt-2">MLBB 품절대란! 바로 그 제품!</dt>
+                                <dt class="dt-2">시크한 무화과가 입술과 사랑에 빠진 피그피그 탕후루</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l58.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 쥬시 래스팅 틴트 05피치미</dt>
+                                <dt class="dt-2">여리여리한 복숭아를 내 입술에 저~장</dt>
+                                <dt class="dt-2">피치빛 탕후루 광택</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>8,400원</dd>
+                                <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                            </dl>
+                        </li>
+
+                        <ul id="juicy">
+                            <li><a href="#"><img src="images/l59.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 쥬시 래스팅 틴트 04드래곤핑크</dt>
+                                    <dt class="dt-2">용과의 유니크한 핑크를 입술에 선사할게요</dt>
+                                    <dt class="dt-2">푸시아핑크빛 용과의 탕후루 광택</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>8,400원</dd>
+                                    <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                                </dl>
+                            </li>
+                            <li><a href="#"><img src="images/l60.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 쥬시 래스팅 틴트 03섬머센트</dt>
+                                    <dt class="dt-2">여름밤 향기가 생각날 만큼</dt>
+                                    <dt class="dt-2">수박의 시원한 레드빛 탕후루 광택</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>8,400원</dd>
+                                    <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                                </dl>
+                            </li>
+                            <li><a href="#"><img src="images/l61.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 쥬시 래스팅 틴트 02루비레드</dt>
+                                    <dt class="dt-2">자몽의 촉촉한 생기를 닮은</dt>
+                                    <dt class="dt-2">다홍빛 자몽 탕후루 광택</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>8,400원</dd>
+                                    <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                                </dl>
+                            </li>
+                            <li><a href="#"><img src="images/l62.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 쥬시 래스팅 틴트 01쥬시오</dt>
+                                    <dt class="dt-2">상큼한 오렌지를 한 입 베어문 것 처럼</dt>
+                                    <dt class="dt-2">오렌지 빛 탕후루 광택</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>8,400원</dd>
+                                    <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+          
+            <ul id="see-through">
+                <li class="see-img"><a href="#"><img src="images/l36.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 시스루 매트 틴트 6color #음파음파</dt>
+                        <dt>틴트 #시스루매트</dt>
+                        <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                        <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>10,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l30.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 시스루 매트 틴트 06 번 랩</dt>
+                        <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                        <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>10,900원</dd>
+                        <dd><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l31.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 시스루 매트 틴트 05 브릭 커버</dt>
+                        <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                        <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>10,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l32.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 시스루 매트 틴트 04 레드 체인</dt>
+                        <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                        <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                        <dd><del>13,000원</del></dd>
+                        <dd>10,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <ul id="see-through">
+                    <li><a href="#"><img src="images/l33.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 시스루 매트 틴트 03 뜨루 코랄</dt>
+                            <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                            <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l34.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 시스루 매트 틴트 02 립 플럼</dt>
+                            <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                            <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l35.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 시스루 매트 틴트 01 핑크폴드</dt>
+                            <dt class="dt-2">비칠 듯 말 듯 시스루 밀착, 음파음파 할수록 #투명쫀쫀</dt>
+                            <dt class="dt-2">롬앤의 2019 NEW틴트</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                            <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </ul>
+
+            <ul id="etc">
+                <li><a href="#"><img src="images/l4.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 밀크티 벨벳 틴트 4color #홍차컬러</dt>
+                        <dt>#밀키벨벳</dt>
+                       
+                        <dd><del>13,000원</del></dd>
+                        <dd>8,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l26.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 글래스팅 워터 글로스 3color #물막</dt>
+                        <dt>글로스 #시너지광택</dt>
+                       
+                        <dd><del>13,000원</del></dd>
+                        <dd>10,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li><a href="#"><img src="images/l27.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 글래스팅 워터 틴트 8color #s/s컬러추가</dt>
+                        <dt>#물막틴트 #탱글광택</dt>
+                       
+                        <dd><del>13,000원</del></dd>
+                        <dd>10,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <li class="etc-img"><a href="#"><img src="images/l51.jpg" alt=""></a>
+                    <dl>
+                        <dt>롬앤 리퀴드립스틱 립드라이버 5color</dt>
+                        <dt class="dt-2">입술 위 아찔한 컬러질주 #끝장지속력</dt>
+                       
+                        <dd><del>13,000원</del></dd>
+                        <dd>9,900원</dd>
+                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                    </dl>
+                </li>
+                <ul id="etc">
+                    <li><a href="#"><img src="images/l5.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 글래스팅 워터 글로스 00메테오트랙</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l6.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 글래스팅 워터 글로스 01산호크러쉬</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l7.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 글래스팅 워터 글로스 02나이트마린</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                        </dl>
+                    </li>
+                    <li><a href="#"><img src="images/l8.jpg" alt=""></a>
+                        <dl>
+                            <dt>롬앤 글래스팅 워터 틴트 07핑크밸리</dt>
+                            <dd><del>13,000원</del></dd>
+                            <dd>10,900원</dd>
+                        </dl>
+                    </li>
+                    <ul id="etc">
+                        <li><a href="#"><img src="images/l9.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 글래스팅 워터 틴트 08로제스트림</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>10,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l10.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 글래스팅 워터 틴트 03브릭리버</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>10,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l11.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 글래스팅 워터 틴트 01코랄미스트</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>10,900원</dd>
+                            </dl>
+                        </li>
+                        <li><a href="#"><img src="images/l12.jpg" alt=""></a>
+                            <dl>
+                                <dt>롬앤 글래스팅 워터 틴트 02레드드롭</dt>
+                                <dd><del>13,000원</del></dd>
+                                <dd>10,900원</dd>
+                            </dl>
+                        </li>
+                        <ul id="etc">
+                            <li><a href="#"><img src="images/l13.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 글래스팅 워터 틴트 04빈티지오션</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>10,900원</dd>
+                                </dl>
+                            </li>
+                            <li><a href="#"><img src="images/l14.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 글래스팅 워터 틴트 05로즈스플래쉬</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>10,900원</dd>
+                                </dl>
+                            </li>
+                            <li><a href="#"><img src="images/l15.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 글래스팅 워터 틴트 06퍼플샤워</dt>
+                                    <dd><del>13,000원</del></dd>
+                                    <dd>10,900원</dd>
+                                </dl>
+                            </li>
+                            <li class="etc-img2"><a href="#"><img src="images/l53.jpg" alt=""></a>
+                                <dl>
+                                    <dt>롬앤 크리미 립스틱 4color</dt>
+                                    
+                                    <dd><del>15,000원</del></dd>
+                                    <dd>8,900원</dd>
+                                </dl>
+                            </li>
+                            <ul id="etc">
+                                <li><a href="#"><img src="images/l56.jpg" alt=""></a>
+                                    <dl>
+                                        <dt>롬앤 립매터 보정어플 #블러효과 #주름매끈</dt>
+                                        <dt class="dt-2">얼굴이 활짝 피었습니다.</dt>
+                                        <dt class="dt-2">1초 장미발색! 퍼스널컬러 MLBB립스틱</dt>
+                                        <dd><del>11,000원</del></dd>
+                                        <dd>9,900원</dd>
+                                        <dd><img src="images/hit.gif" alt=""><img src="images/new.gif" alt=""></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+    </section>
+
+    <section id="number">
+        <a href="#">≪ &nbsp;＜&nbsp; 1&nbsp; ＞ &nbsp;≫</a>
+    </section>
+ 
+
+    <section id="footer">
+        <div class="f-left">
+            <div class="fl-container">
+                <h1><img src="images/f-logo.PNG" alt=""></h1>
+                <p>Beauty holic's favorite allday beauty rom&nd</p>
+                <div class="line"></div>
+                <h3>롬앤 고객센터 <span>1670-2238</span></h3>
+                <h4>Mon-Fri. 10:00 ~ 18:00 <br>
+                Lunch. 12:20 ~ 13:30 <br></h4>
+                <h5>토,일 공휴일 휴무</h5>
+            </div>    
+        </div>
+        <div class="f-right">
+            <ul>
+                <li>
+                    <h5>제휴 및 해외수출 문의 <br>
+                        Partnership & Global</h5>
+                    <p class="email">romandyou@naver.com</p>
+                </li>
+                <li>
+                    <h5>롬앤 오프라인 매장<br>
+                        rom&nd Offline Store</h5>
+                    <p>직접 써보는 즐거움!<br>
+                       오프라인에서 보다 생생하게<br>
+                       롬앤을 경험해 보세요.
+                    </p>
+
+                    <div class="btn"><a href="#">매장정보 보기 >></a></div>
+                </li>
+                <li>
+                    <h5>온라인 멤버쉽 혜택<br>
+                        Online membership benefit</h5>
+                    <p>가입만 해도<br>
+                       바로 사용 가능한<br>
+                       2,000원 적립 쿠폰 증정!
+                    </p>
+
+                    <div class="btn"><a href="#">혜택 자세히 보기 >></a></div>
+                </li>
+            </ul>
+        </div>
+        <div class="f-bot">
+            <h5>㈜아이패밀리SC</h5>
+            <p>서울시 강남구 논현동 59-9 | Tel : 02.1670.2238 | Fax : 02.6910.4111 | 사업자 등록번호 : 120-86-00633 | 통신판매신고번호 : 강남 제 2927호 | 대표자 :  김태욱,김성현</p>
+            <div class="copy">ⓒ 2017 IFAMILY SC, CO.LTD.All Right Reserved.</div>
+            <div class="f-btn"><a href="#">개인정보보호정책</a></div>
+            <div class="f-btn"><a href="#">이용약관동의</a></div>
+        </div>
+    </section>
+</body>
+</html>
