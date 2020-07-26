@@ -130,15 +130,16 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     margin-bottom: 30px;
 }
 #list .category {
-    /* outline: 1px solid red; */
-   margin-left: 430px;
+   margin-left: 500px;
 }
 #list .category li {
-    /*margin-right: 100px;*/
+    /*margin-right: 70px;*/
+    /*margin-left: 20px;*/
     /*outline: 1px solid red;*/
     width: 130px;
     text-align: center;
 }
+
 #list .category li a {
     color: #666666;
     font-size: 13px;
@@ -210,22 +211,27 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     float: left;
 
 }
+#list .category {
+    /* padding-left: 80px; */
+    /* outline: 1px solid red; */
+}
 #list ul li {
     margin-right: 20px;
     margin-bottom: 30px;
     display: inline-block;
 }
-#list ul li:last-of-type { margin-right: 0;}
+#list ul li:last-of-type { margin-right: 0; }
 #face-list dl {
     text-align: center;
     margin-top: 30px;
+    /* outline: 1px solid red; */
 }
 #face-list dl dt {
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 16px;
     color: #444;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 #face-list dl dd {
     font-weight: 18px;
@@ -245,11 +251,19 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     font-weight: normal;
     margin-bottom: 0;
 }
-#etc .last img {
-    margin-top: -10px;
+#milk li dd img {
     /* outline: 1px solid red; */
+    visibility: hidden;
 }
-
+#milk li:first-of-type dd img {
+   visibility: visible;
+}
+#better  li dd img {
+    visibility: visible;
+}
+#better .shell img {
+    margin-top: 17px;
+}
 /* number */
 #number {
     clear: both;

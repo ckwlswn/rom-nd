@@ -245,9 +245,34 @@ body {font-family: 'Nanum Gothic', sans-serif;}
     font-weight: normal;
     margin-bottom: 0;
 }
-#etc .last img {
-    margin-top: -10px;
+#list .category {
+    margin-left: 325px;
+}
+#list .category li {
     /* outline: 1px solid red; */
+    width: 140px;
+    /* margin-left: -30px; */
+}
+#zero .zero-img img {
+    margin-top: 12px;
+}
+#zero .zero-img2 img {
+    margin-bottom: -10px;
+}
+#juicy .juicy-img img {
+    margin-top: 12px;
+}
+#juicy .juicy-img2 img {
+    margin-top: 40px;
+}
+#see-through .see-img img {
+    margin-bottom: -22px;
+}
+#etc .etc-img img {
+    margin-top: 10px;
+}
+#etc .etc-img2 img {
+    margin-bottom: 0px;
 }
 
 /* number */
